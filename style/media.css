@@ -1,0 +1,20 @@
+@media (max-width: 500px) {
+    .auth {
+        background: url("https://64.media.tumblr.com/cca4f06484b447c0687f0325af5b38c9/428a8db1dc8ae92f-87/s1280x1920/7c751558b1d93e15c2d885cff2162ddb95059b8d.gif") no-repeat center/cover;
+    }
+    .auth__form {
+        padding: 50px 70px;
+    }   
+}
+
+@media (max-width: 420px) {
+    .auth, .auth__inp, .auth__btn {
+        font-size: 15px;
+    }
+    .auth__form {
+        padding: 40px 50px;
+    }   
+    .auth__inp {
+        width: 210px;
+    }
+}
